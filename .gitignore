@@ -1,0 +1,14 @@
+node_modules/
+
+# Local SQLite database and runtime files
+backend/raktsetu.db
+backend/raktsetu.db-shm
+backend/raktsetu.db-wal
+
+# Frontend build output
+frontend/dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
