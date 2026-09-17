@@ -5,6 +5,7 @@
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
+    "postinstall": "node seed.js",
     "start": "node server.js",
     "seed": "node seed.js"
   },
